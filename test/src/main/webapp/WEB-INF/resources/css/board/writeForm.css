@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#frm {
+	margin-top: 10px;
+}
+
+#frm h2 {
+	text-align: center;
+	padding: 30px 0;
+}
+
+#frm label {
+	display: inline-block;
+}
+
+#frm .row {
+	display: flex;
+	padding: 3px;
+	width: 100%
+}
+
+#frm {
+	width: 600px;
+	padding: 10px;
+}
+
+#frm .row .col-1, #frm .row .col-2 {
+	padding: 3px;
+}
+
+#frm .row .row.btns {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#frm .row .btn {
+	width: 10%;
+}
+
+#frm .col-1-1 {
+	width: 20%;
+	text-align: right;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+#frm .col-2-1 {
+	width: 75%;
+	margin-left: 3px;
+}

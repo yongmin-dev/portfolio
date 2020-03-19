@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.login-title {
+	text-align: center;
+}
+
+#id, #pw, #loginBtn {
+	padding: 10px;
+	border-radius: 5px;
+	
+	
+}
+
+#loginBtn {
+	padding: 10px;
+	border-radius: 30px;
+	color:white;
+	background-color:black;
+	
+}
+#frm{
+	border-bottom:1px solid gray;
+	padding:10px
+}
+
+/* 비밀번호 찾기 */
+.find_info{
+	margin-top:20px;
+	font-size:0.7 rem;
+	color:gray;
+	display:flex;
+	justify-content: space-evenly;
+}
+.find_info>a{text-decoration: none; color:gray;}
+.find_info>a:hover{text-decoration:underline;}
+
+.errmsg{
+	color:red; font-size:1rem; font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+

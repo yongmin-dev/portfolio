@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+#boardList {
+	margin-top: 10px;
+	width: 700px;
+	padding: 10px;
+}
+
+#boardList h2 {
+	text-align: center;
+	padding: 30px 0;
+}
+
+#boardList table {
+	width: 100%;
+	border: 1px solid #444444;
+	border-collapse: collapse;
+}
+
+#boardList th, td {
+	border: 1px solid #444444;
+	padding: 10px;
+}
+
+#boardList table th:nth-child(1) {
+	width: 7%;
+}
+
+#boardList table td:nth-child(1) {
+	text-align: right;
+}
+
+#boardList table th:nth-child(2) {
+	width: 8%;
+}
+
+#boardList table th:nth-child(3) {
+	width: 36%;
+}
+
+#boardList table td:nth-child(3):hover {
+	text-decoration: underline;
+}
+
+#boardList table th:nth-child(4) {
+	width: 23%;
+}
+
+#boardList table th:nth-child(5) {
+	width: 17%;
+}
+
+#boardList table th:nth-child(6) {
+	width: 10%;
+}
+
+#boardList table td:nth-child(6) {
+	text-align: right;
+}
+
+#boardList table td {
+	padding: 3px;
+}
+
+#boardList table {
+	font-size: 0.825rem;
+}
+
+#boardList #writeBtn {
+	width: 100%;
+	padding: 2px 3px;
+}
+
+#boardList #paging, #boardList #search {
+	display: flex;
+	justify-content: center;
+}
+
+#boardList #paging, #boardList #search {
+	padding: 10px 5px;
+}
+
+#boardList #paging a {
+	padding: 3px;
+}
+
+#boardList #paging a:hover {
+	text-decoration: underline;
+}
+
+#boardList #paging a.on {
+	background-color: none;
+}
+
+#boardList #search input[type="search"] {
+	width: 200px;
+}
+
+#boardList #search #searchBtn {
+	padding: 2px;
+}

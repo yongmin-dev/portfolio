@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+div {
+	box-sizing: border-box;
+	padding: 3px;
+}
+
+body {
+	font-size: 1rem;
+}
+
+form {
+	margin-top: 50px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.content div {
+	flex: 1 1 20px;
+	line-height: 1 rem;
+}
+
+.content div:nth-child(3n) {
+	border: 1px solid gray;
+	padding: 1px;
+	padding-left: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.join-title {
+	text-align: center;
+}
+
+input {
+	width: 250px;
+	border: none;
+}
+
+input[type=radio] {
+	width: auto;
+}
+
+#joinBtn {
+	background-color: white;
+	color: black;
+	font-weight: 800;
+	border: 1px solid green;
+	padding: 5px;
+}
+
+i {
+	padding: 5px 4px;
+}
+
+label {
+	vertical-align: top;
+}
+form:label{
+	vertical-align: top;
+}
+
+
+button, select {
+	border: none;
+}
+
+button {
+	width: 290px;
+}
+
+select {
+	width: 260px;
+}
+
+.errmsg {
+	color: red;
+	font-size: 1 rem;
+	font-weight: none;
+}

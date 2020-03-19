@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*mycontainer{
+	display:flex;
+	justify-content:center;
+	margin-top:100px;
+}
+.login-wrapper{width:300px;}
+.login-content{
+	align-items:center;
+}
+
+.login-content > div{margin:10px 0;}
+.login-content input{
+	width:100%;
+	border:1px solid gray;
+}
+
+.login-content input[type="button"]{
+	background-color:blue;
+	color:white;
+	font-weight:900;
+}
+
+.login-title{text-align:center;}
+#id{
+	background-color:yellow;
+	font-weight:bold;
+}
+
+/* 아이디 찾기 */
+.find_info{
+	margin-top:20px;
+	font-size:0.7 rem;
+	color:gray;
+	display:flex;
+	justify-content : space-evenly;
+}
+
+.find_info>a {text-decoration:none; color:gray}
+.find_info>a:hover{text-decoration:underline;}
+
+.errmsg{color:red; font-size:0.9 rem; font-weight:bold;}
+

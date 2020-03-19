@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+#frm {
+	margin-top: 10px;
+	width: 680px;
+	padding: 10px;
+}
+
+#frm h2 {
+	text-align: center;
+	padding: 30px 0;
+}
+
+#frm label {
+	display: inline-block;
+}
+
+#frm .row {
+	display: flex;
+	padding: 3px;
+	margin-right:10px;
+	width: 100%
+}
+
+#frm .row .col-1, #frm .row .col-2 {
+	padding: 3px;
+}
+
+#frm .row .col-1 {
+	width: 20%;
+	text-align: right;
+	letter-spacing: 1px;
+	background-color: none;
+	font-weight: bold;
+}
+
+#frm .row .col-2-1 {
+	width: 80%;
+	margin-left: 15px;
+}
+
+#frm .row .row.btns {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#frm .row .btn {
+	width: 10%;
+}
+
+#frm  .fileList {
+	font-color: #000;
+}
+
+#frm #fileList {
+	font-size: 0.825em;
+}
+
+#frm a.fileList:hover {
+	text-decoration: underline;
+}
+
+#frm .row.hit {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-size: 0.825rem;
+}
