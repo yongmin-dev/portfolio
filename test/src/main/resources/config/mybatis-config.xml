@@ -8,6 +8,7 @@
 		<typeAlias type="com.kh.board.vo.BoardVO" alias="BoardVO" />
 		<typeAlias type="com.kh.board.vo.BoardFileVO" alias="BoardFileVO" />
 		<typeAlias type="com.kh.board.vo.BoardCategoryVO" alias="BoardCategoryVO" />
+		<typeAlias type="com.kh.board.vo.CboardVO" alias="CboardVO"/>
 		
 
 	</typeAliases>

@@ -13,11 +13,11 @@
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" />
 <link rel="stylesheet"
-	href="<c:url value ='/resources/css/memberJoin.css' /> ">
+	href="<c:url value ='/resources/css/member/memberJoin.css' /> ">
 	
 	<!-- CSS 모음 -->
 <%@ include file="../include/bootstrap_css.jsp"%>
-<script src="<c:url value='/resources/js/memberJoin.js' />"></script>
+<script src="<c:url value='/resources/js/member/memberJoin.js' />"></script>
 
 <link rel="shortcut icon" href="#">
 

@@ -9,8 +9,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>회원탈퇴</title>
 <link rel="stylesheet" href="<c:url value='/resources/css/reset.css' />">
-<link rel="stylesheet" href="<c:url value='/resources/css/memberOut.css' />">
-<script src="<c:url value='/resources/js/memberOut.js' />"></script>
+<link rel="stylesheet" href="<c:url value='/resources/css/member/memberOut.css' />">
+<script src="<c:url value='/resources/js/member/memberOut.js' />"></script>
 
 
 </head>

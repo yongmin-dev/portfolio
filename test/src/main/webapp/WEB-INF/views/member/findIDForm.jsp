@@ -9,8 +9,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>아이디 찾기</title>
 <link rel="stylesheet"
-	href="<c:url value='/resources/css/findID.css' />">
-<script src="<c:url value='/resources/js/findID.js'/>"></script>
+	href="<c:url value='/resources/css/member/findID.css' />">
+<script src="<c:url value='/resources/js/member/findID.js'/>"></script>
 </head>
 <body>
 	<div class="mycontainer">
@@ -39,7 +39,7 @@
 				<div>
 					<input type="button" id="findIDBtn" value="아이디찾기">
 				</div>
-			
+			</div>
 
 
 
@@ -51,7 +51,7 @@
 				href="<c:url value='/member/loginForm' />">Login</a>
 		</div>
 	</div>
-</div>
+
 
 </body>
 </html>

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.kh.board.svc.RboardSVC;
-import com.kh.board.vo.RboardVO;
+import com.kh.comment.CboardVO;
 
 //@RestController
 //@RequestMapping("/rboard")
@@ -25,7 +25,7 @@ public class RboardController {
 
 	// 댓글 작성
 	@PostMapping(value = "", produces = "application/json")
-	public ResponseEntity<String> write(@RequestBody(required = true) RboardVO rboardVO) {
+	public ResponseEntity<String> write(@RequestBody(required = true) CboardVO rboardVO) {
 		ResponseEntity res = null;
 		logger.info("write() 호출됨");
 		logger.info("rboardVO : " + rboardVO.toString());

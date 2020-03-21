@@ -13,9 +13,9 @@
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" />
 <link rel="stylesheet"
-	href="<c:url value='/resources/css/memberModify.css' />">
+	href="<c:url value='/resources/css/member/memberModify.css' />">
 	<%@ include file="../include/bootstrap_css.jsp"%>
-<script src="<c:url value='/resources/js/memberModify.js' />"></script>
+<script src="<c:url value='/resources/js/member/memberModify.js' />"></script>
 
 </head>
 <body>

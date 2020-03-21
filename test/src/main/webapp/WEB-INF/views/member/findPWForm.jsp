@@ -7,9 +7,9 @@
 <meta charset="UTF-8">
 <title>Finding PW</title>
 
-<link rel="stylesheet" href="<c:url value='/resources/css/findPW.css' />">
+<link rel="stylesheet" href="<c:url value='/resources/css/member/findPW.css' />">
 <script src="<c:url value='/resources/js/common.js' />"></script>
-<script src="<c:url value='/resources/js/findPW.js' />"></script>
+<script src="<c:url value='/resources/js/member/findPW.js' />"></script>
 
 
 </head>
