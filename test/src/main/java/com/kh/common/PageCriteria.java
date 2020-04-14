@@ -18,12 +18,12 @@ public class PageCriteria {
 
 	private RecordCriteria rc; // 한페이지에 보여줄 레코드 수, 요청 페이지
 
-	private final int PAGE_NUM_PER_PAGE = 10; // 한페이지에 보여줄 페이지 수
+	private final int PAGENum_PER_PAGE = 10; // 한페이지에 보여줄 페이지 수
 
 	public PageCriteria(RecordCriteria rc, int totalRec) {
 		this.rc = rc;
 		this.totalRec = totalRec;
-		this.pageNumPerPage = PAGE_NUM_PER_PAGE;
+		this.pageNumPerPage = PAGENum_PER_PAGE;
 		init();
 	}
 

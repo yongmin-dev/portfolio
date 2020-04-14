@@ -186,7 +186,7 @@
                 budate,
                 bhit,
                 bindent
-           from (select row_number() over(order by bgroup desc, bstep asc) as num, 
+           from (select rowNumber() over(order by bgroup desc, bstep asc) as num, 
                      t1.bnum,
                      t2.cid,
                      t2.cname,

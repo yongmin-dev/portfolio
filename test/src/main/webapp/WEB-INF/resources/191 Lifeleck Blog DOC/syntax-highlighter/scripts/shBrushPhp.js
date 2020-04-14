@@ -47,7 +47,7 @@
 						'gettimeofday gettype glob gmdate gmmktime ini_alter ini_get ini_get_all ini_restore ini_set '+
 						'interface_exists intval ip2long is_a is_array is_bool is_callable is_dir is_double '+
 						'is_executable is_file is_finite is_float is_infinite is_int is_integer is_link is_long '+
-						'is_nan is_null is_numeric is_object is_readable is_real is_resource is_scalar is_soap_fault '+
+						'is_nan is_null isNumeric is_object is_readable is_real is_resource is_scalar is_soap_fault '+
 						'is_string is_subclass_of is_uploaded_file is_writable is_writeable mkdir mktime nl2br '+
 						'parse_ini_file parse_str parse_url passthru pathinfo print readlink realpath rewind rewinddir rmdir '+
 						'round str_ireplace str_pad str_repeat str_replace str_rot13 str_shuffle str_split '+

@@ -33,7 +33,10 @@ public class BoardVO {
 	
 	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Timestamp bcdate;
+	
+	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Timestamp budate;
+	
 	private int bhit;
 	
 	@NotNull(message="내용을 입력하세요")
